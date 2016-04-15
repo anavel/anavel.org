@@ -1,0 +1,25 @@
+// Bootstrap colors //
+$brand-primary: #755db9;
+$gray: #5F5D5D;
+
+// Colors //
+$color__faint: #f0f2f1;
+$color__gray: #525252;
+$color__light_gray: #aeaeae;
+$color__lighter_gray: #dee0df;
+
+// Fonts //
+$font-family-base: 'Source Sans Pro', sans-serif;
+
+$grid-breakpoints: (
+  // Extra small screen / phone
+        xs: 0,
+  // Small screen / phone
+        sm: 49em,
+  // Medium screen / tablet
+        md: 48em,
+  // Large screen / desktop
+        lg: 62em,
+  // Extra large screen / wide desktop
+        xl: 75em
+) !default;

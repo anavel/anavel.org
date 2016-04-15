@@ -1,0 +1,17 @@
+{
+  "name": "anavel.org",
+  "version": "1.0.0",
+  "authors": [
+    "Anavel"
+  ],
+  "private": true,
+  "ignore": [
+    "node_modules",
+    "/resources/assets/vendor"
+  ],
+  "dependencies": {
+    "bootstrap": "#980d8ea",
+    "prism": "~1.0.1",
+    "scotchPanels": "scotch-panels#~1.0.3"
+  }
+}

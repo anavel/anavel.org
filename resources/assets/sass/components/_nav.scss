@@ -1,0 +1,48 @@
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #dee0df;
+  height: 97px;
+  border-top: 7px solid $brand-primary;
+  padding: 0.5rem 0rem;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: #484848;
+
+  > img {
+    display: inline-block;
+    margin-top: -8px;
+  }
+}
+
+.navbar-nav {
+  .nav-link {
+    color: #7b7b7b;
+    padding: 1.7rem 10px;
+
+    &:hover {
+      color: $brand-primary;
+    }
+  }
+
+  .switcher {
+    margin-top: 17px;
+    margin-left: 20px;
+    .btn {
+      padding: 7px 12px;
+    }
+
+    .dropdown-menu {
+      min-width: auto;
+      text-align: center;
+    }
+  }
+}
+
+.toggle-slide {
+  margin-top: 18px;
+  margin-left: 10px;
+}
