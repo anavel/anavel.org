@@ -29,7 +29,7 @@
         <button class="toggle-slide menu-link btn btn-default hidden-sm-up pull-right" type="button">
             &#9776;
         </button>
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="{{ route('home') }}">
             <img src="{{ url('img/anavel-logo.png') }}" height="30" alt="Anavel logo">
             Anavel
         </a>
@@ -68,9 +68,6 @@
 
 <footer class="footer">
     <div class="container">
-        <nav class="nav">
-            <a class="nav-link" href="{{ route('docs.index', ['version' => $version, 'package' => 'foundation']) }}">Foundation</a>
-        </nav>
         <p>
             <a href="/">anavel.org</a> is based on
             <a href="http://laravel.com" target="_blank" title="Laravel - PHP Framework">laravel.com</a>

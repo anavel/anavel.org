@@ -25,17 +25,17 @@
 				<pre class="language-php line-numbers"><code>
 &lt;?php
 
-$scientist = new Scientist(
-    'Albert',
-    'Einstein'
-);
-
-$scientist->addTheory(
-    new Theory('Theory of relativity')
-);
-
-EntityManager::persist($scientist);
-EntityManager::flush();
+    /*
+    |--------------------------------------------------------------------------
+    | Modules
+    |--------------------------------------------------------------------------
+    |
+    */
+    'modules'               => [
+        Anavel\Crud\CrudModuleProvider::class,
+        Anavel\Gettext\GettextModuleProvider::class,
+        Anavel\Translation\TranslationModuleProvider::class
+    ],
 </code></pre>
                 </div>
             </div>

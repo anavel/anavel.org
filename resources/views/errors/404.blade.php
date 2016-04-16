@@ -23,15 +23,11 @@
 				<pre class="language-php line-numbers"><code>
 &lt;?php
 
-$pageRepository = EntityManager::getRepository(
-    Page::class
-);
+$module = $anavel->activeModule();
 
-$page = $pageRepository->find('{{ $request->path() }}');
-
-if(!$page) {
-    throw new PageWasNotFound(
-        'Page not found'
+if (!$module) {
+    throw new ModuleWasNotFound(
+        'Module not found'
     );
 }
 </code></pre>
