@@ -30,8 +30,7 @@
             &#9776;
         </button>
         <a class="navbar-brand" href="{{ route('home') }}">
-            <img src="{{ url('img/anavel-logo.png') }}" height="30" alt="Anavel logo">
-            Anavel
+            <img src="{{ url('img/anavel.png') }}" height="30" alt="Anavel">
         </a>
         <ul class="nav navbar-nav pull-right">
             @yield('versions')

@@ -9,7 +9,7 @@
     <section class="panel statement light">
         <div class="content">
 
-            <img src="/img/anavel-flow.png" alt="Modular CMS for Laravel applications">
+            <img src="{{url('/img/anavel.png')}}" alt="Modular CMS for Laravel applications">
 
             <h1>Modular CMS for Laravel applications</h1>
 
