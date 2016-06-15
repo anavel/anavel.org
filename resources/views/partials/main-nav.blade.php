@@ -6,6 +6,7 @@
         <a class="dropdown-item" href="{{ route('docs.index', ['version' => $version, 'package' => 'crud']) }}">CRUD</a>
         <a class="dropdown-item" href="{{ route('docs.index', ['version' => $version, 'package' => 'gettext']) }}">Gettext</a>
         <a class="dropdown-item" href="{{ route('docs.index', ['version' => $version, 'package' => 'translation']) }}">Translation</a>
+        <a class="dropdown-item" href="{{ route('docs.index', ['version' => $version, 'package' => 'uploads']) }}">Uploads</a>
     </ul>
 </li>
 
